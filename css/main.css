@@ -1,0 +1,191 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-size: 16px;
+	color: #333;
+	background-color: #e2e3e4;
+}
+
+input{
+	outline: none;
+	border: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*======================*/
+
+.mainContent{
+	padding-top: 1%;
+	width: 80%;
+	margin-left: 20%;
+	text-align: center;
+}
+
+
+.userSidebar{
+	float: left;
+	z-index: 10;
+}
+
+.postImage{
+
+}
+
+.site-wrapper{
+	max-width: 960px;
+}
+
+.site-wrapper,
+.underline,
+.welcomeCircle,
+.postContainer{
+	margin: 0 auto;
+}
+
+.usernameField,
+.passwordField{
+	display: block;
+	margin:35px auto 10px;
+	width: 70%;
+	padding:10px 2%;
+	background-color: transparent;
+	border-left: 2px solid #343e46;
+	border-bottom: 2px solid #343e46;
+	color: #fff;
+	font-family: inherit;
+}
+
+
+
+.userSidebar{
+	width: 20%;
+	background-color: #17232d;
+	color: #fff;
+	height: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 50px;
+	position: fixed;
+
+}
+
+
+.loginFormButtons span{
+	cursor: pointer;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.loginFormButtons span:hover{
+	opacity: .6;
+}
+
+.textLogo{
+	font-family: 'Righteous', cursive;
+	text-align: center;
+	font-size: 3.6em;
+}
+
+.underline{
+	display: block;
+	height: 1px;
+	background-color: #a5a5a5;
+	width: 80%;
+}
+
+.welcomeCircle{
+	height: 100px;
+	width: 100px;
+	background-color: #33dfaa;
+	border-radius: 50%;
+	display: none;
+}
+
+.welcomeUserInitial{
+	margin:0;
+	font-size: 5em;
+	font-family: 'Righteous';
+}
+
+.welcomeMessage{
+	font-family: Righteous;
+	font-size: 1.5em;
+	width: 100%;
+}
+
+/*.welcomeMessage:after{
+	content: "⚫";
+}*/
+
+.postContainer{
+	width: 30%;
+	margin-top: 200px;
+	margin-bottom: 100px;
+
+}
+
+.postTextContent{
+	border-top: 1px solid #a5a5a5;
+	border-bottom: 1px solid #a5a5a5;
+	margin-top: 10px;
+	padding: 0 1%;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	overflow: hidden;
+}
+
+.commentAndLikeContainer{
+	  float: right;
+	  padding-top: 15px;
+}
+
+.commentAndLikeContainer .fa{
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.commentAndLikeContainer *{
+	float: left;
+}
+
+/*.commentAndLikeContainer .fa:first-child:hover{
+	color: #2980b9;
+
+}*/
+
+
+.postName{
+	float: left;
+}
+
+
+.main-header{
+	position: fixed;
+	width: 80%;
+	background-color: #e2e3e4;
+	top: 0;
+	z-index: 5;
+	/*box-shadow: 0px 17px 31px 0px rgba(226,227,228,1);*/
+
+}
+
+
+.fa-comment{
+	color: #1E8BC3;
+}
+
+.fa-heart{
+	color: #D64541;
+}
